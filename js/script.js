@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const audio = document.getElementById("background-music");
 const playPauseButton = document.getElementById("play-pause-button");
 const playIcon = document.getElementById("play-music");
@@ -103,5 +103,3 @@ particlesJS("particles-js", {
   },
   retina_detect: true,
 });
-
-
