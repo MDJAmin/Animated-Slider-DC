@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script type="module" defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <title>Super Hero Slider</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="js/script.js"></script>
+  <title>Document</title>
 </head>
+
 <body>
-    <audio id="background-music" loop>
-        <source src="./assets/Audio/19 Saving the Day_Award Ceremony_End Titles.mp3" type="audio/mp3,mpeg"/>
-        "Your browser does not support the audio element"
-    </audio>
-<button id="play-pause-button">
+  <audio id="background-music" loop>
+    <source
+      src="assets/Audio/19 Saving the Day_Award Ceremony_End Titles.mp3"
+      type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+  <button id="play-pause-button">
     <ion-icon class="audio-icon" id="play-music" name="play"></ion-icon>
-    <ion-icon class="audio-icon hidden" id="play-music" name="pause"></ion-icon>
-</button>
-<div id="particles-js" class="particles"></div>
-<div class="container">
+    <ion-icon class="audio-icon hidden" id="pause-music" name="pause"></ion-icon>
+  </button>
+
+  <div id="particles-js" class="particles"></div>
+
+  <div class="container">
     <div class="swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -47,6 +54,6 @@
       </div>
     </div>
   </div>
-    <script src="js/script.js"></script>
 </body>
+
 </html>
